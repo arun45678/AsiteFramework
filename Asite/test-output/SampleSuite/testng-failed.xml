@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SampleSuite]">
+  <test name="SampleSuite(failed)">
+    <classes>
+      <class name="com.learnautomation.testcases.AsiteLogin">
+        <methods>
+          <include name="loginApp"/>
+        </methods>
+      </class> <!-- com.learnautomation.testcases.AsiteLogin -->
+    </classes>
+  </test> <!-- SampleSuite(failed) -->
+</suite> <!-- Failed suite [SampleSuite] -->

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and Test is getting ready]]>
+    </line>
+    <line>
+      <![CDATA[Setting Done- Test can be started]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start browser and getting application ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser and Application is up and running]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed >>> Repors Generated]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed >>> Repors Generated]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16282" started-at="2023-04-29T05:48:19Z" finished-at="2023-04-29T05:48:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16282" started-at="2023-04-29T05:48:19Z" finished-at="2023-04-29T05:48:36Z">
+      <class name="com.learnautomation.testcases.AsiteLogin">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.learnautomation.testcases.AsiteLogin@475e586c]" name="setUpSuite" is-config="true" duration-ms="542" started-at="2023-04-29T11:18:19Z" finished-at="2023-04-29T11:18:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and Test is getting ready]]>
+            </line>
+            <line>
+              <![CDATA[Setting Done- Test can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.learnautomation.testcases.AsiteLogin@475e586c]" name="setup" is-config="true" duration-ms="10617" started-at="2023-04-29T11:18:19Z" finished-at="2023-04-29T11:18:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start browser and getting application ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser and Application is up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginApp()[pri:1, instance:com.learnautomation.testcases.AsiteLogin@475e586c]" name="loginApp" duration-ms="2521" started-at="2023-04-29T11:18:30Z" finished-at="2023-04-29T11:18:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.AsiteLogin@475e586c]" name="tearDownMethod" is-config="true" duration-ms="677" started-at="2023-04-29T11:18:32Z" finished-at="2023-04-29T11:18:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=AsiteLogin.loginApp()[pri:1, instance:com.learnautomation.testcases.AsiteLogin@475e586c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed >>> Repors Generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="logout()[pri:2, instance:com.learnautomation.testcases.AsiteLogin@475e586c]" name="logout" duration-ms="5" started-at="2023-04-29T11:18:33Z" finished-at="2023-04-29T11:18:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.AsiteLogin@475e586c]" name="tearDownMethod" is-config="true" duration-ms="2326" started-at="2023-04-29T11:18:33Z" finished-at="2023-04-29T11:18:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logout status=SUCCESS method=AsiteLogin.logout()[pri:2, instance:com.learnautomation.testcases.AsiteLogin@475e586c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed >>> Repors Generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.learnautomation.testcases.AsiteLogin@475e586c]" name="tearDown" is-config="true" duration-ms="112" started-at="2023-04-29T11:18:35Z" finished-at="2023-04-29T11:18:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learnautomation.testcases.AsiteLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
