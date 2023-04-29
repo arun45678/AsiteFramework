@@ -18,7 +18,6 @@ public class AsiteLogin extends BaseClass {
 	public void loginApp()
 	{
 		
-		//Test QA comment
 		logger=report.createTest("Login to Asite");
 		LoginPage loginPage=PageFactory.initElements(driver, LoginPage.class);
 		driver.switchTo().frame("iFrameAsite");
