@@ -36,3 +36,4 @@ public class AsiteLogin extends BaseClass {
 	}
 
 }
+//C:\Users\akhatri\git\AsiteFramework\Asite>mvn install -Dbrowser=Chrome -DurlToBeTested=https://systemqa.asite.com/login
