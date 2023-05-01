@@ -29,7 +29,7 @@ public class AsiteLogin extends BaseClass {
 	@Test(priority=2)
 	public void logout()
 	{
-		//test
+		
 		logger=report.createTest("Logout");
 		logger.fail("Logout failed");
 		
